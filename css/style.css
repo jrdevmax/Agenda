@@ -8,6 +8,9 @@
     display: flex;
     justify-content: center;
 }
+.m-px{
+    margin: 5px;
+}
 .logo img{
     width: 60px;
 }
@@ -57,13 +60,15 @@ a{
     padding: 10px;
 }
 .input-add{
-    width: 315px;
-    height: 30px;
+    width: 320px;
+    height: 35px;
     border: 0;
     border-radius: 5px;
-    background-color: rgb(146, 201, 146);
+    /* background-color: rgb(146, 201, 146); */
+    color:white;
+    background-color:#518ab1;
 }
 
 .input-add:hover{
-    background-color: rgb(116, 235, 116);
+    background-color:#1e91dd;
 }

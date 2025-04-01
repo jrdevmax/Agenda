@@ -1,6 +1,6 @@
 <?php 
     include_once ('config/url.php') ;
-    // include_once 'config/process.php' ;
+    include_once ("config/conexao.php");
 
    
 ?>
@@ -16,6 +16,7 @@
     <header>
         <div class="d-flex navbar">
             <a href="<?= $BASE_URL?>index.php">Home</a>
-            <a href="<?= $BASE_URL?>create.php">Adicionar Contato</a>
+            <a href="<?= $BASE_URL?>create.php">Add Contact</a>
+            <a href="<?= $BASE_URL?>contacts.php">Contacts</a>
         </div>
     </header>
