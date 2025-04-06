@@ -17,6 +17,6 @@
             $stmt ->bindParam(":address",$address);
             $stmt -> execute();
         }
-        header("location:../index.php");
+        header("location:../contacts.php");
     }
 ?>

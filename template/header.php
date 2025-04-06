@@ -16,8 +16,8 @@
 <body>
     <header>
         <div class="d-flex navbar">
-            <a href="<?= $BASE_URL?>index.php">Home</a>
-            <a href="<?= $BASE_URL?>create.php">Add Contact</a>
-            <a href="<?= $BASE_URL?>contacts.php">Contacts</a>
+            <a href="<?= $BASE_URL?>index.php" class="link-nav">Home</a>
+            <a href="<?= $BASE_URL?>create.php" class="link-nav">Add Contact</a>
+            <a href="<?= $BASE_URL?>contacts.php" class="link-nav">Contacts</a>
         </div>
     </header>

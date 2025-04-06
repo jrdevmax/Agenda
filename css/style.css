@@ -26,9 +26,12 @@
 
 a{
     margin: 5px;
-    padding: 20px;
     text-decoration: none;
     /* color: white; */
+}
+
+.link-nav{
+ padding: 20px;
 }
 
 
@@ -71,4 +74,8 @@ a{
 
 .input-add:hover{
     background-color:#1e91dd;
+}
+
+.btn-delete{
+    display: inline;
 }
