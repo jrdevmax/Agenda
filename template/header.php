@@ -1,6 +1,7 @@
 <?php 
     include_once ('config/url.php') ;
     include_once ("config/conexao.php");
+    include_once ("config/select.php");
 
    
 ?>

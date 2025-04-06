@@ -6,7 +6,7 @@
         $id = $_GET["id"];
     }
     if(!empty($id)){
-        $uery = "SELECT * FROM contact WHERE id =:id";
+        $query = "SELECT * FROM contact WHERE id =:id";
         $stmt = $con ->prepare($query);
         $stmt ->bindParam(":id",$id);
         $stmt ->execute();
