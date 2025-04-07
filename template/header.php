@@ -1,9 +1,14 @@
 <?php 
+    session_start();
     include_once ('config/url.php') ;
     include_once ("config/conexao.php");
     include_once ("config/select.php");
 
-   
+    if(isset($_SESSION["msg"])){
+        $print = $_SESSION["msg"];
+        $_SESSION = " ";
+    }
+    
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">

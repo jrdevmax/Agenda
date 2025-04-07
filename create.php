@@ -1,9 +1,17 @@
-<?php include_once 'template/header.php'?>
+<?php 
+    // session_start();
+    include_once 'template/header.php';
+    
+?>
 
 <div class="d-flex">
-       
+        
        <div class="container-principal">
+                <?php if(isset($print) && $print != ""):?>
+                <p class="d-flex"><?= $print ?></p>
+                <?php endif; ?>
            <form action="config/insert.php" method="post">
+            
                 <input type="hidden" name="type" value="insert">
                 <div class="d-flex">
                     <input type="text" name="name" class="input-text" autocomplete="off" placeholder="Inform name" >
