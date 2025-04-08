@@ -27,11 +27,12 @@
 a{
     margin: 5px;
     text-decoration: none;
-    /* color: white; */
+   
 }
 
 .link-nav{
  padding: 20px;
+  color: white;
 }
 
 

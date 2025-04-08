@@ -5,7 +5,7 @@
 
 <div class="d-flex m-px">
     <?php if(count($lista)<=0):?>
-        <p>Não há Registro de contato. Deseja Registrar um contato?<a href="create.php">Clique Aqui!</a></p>
+        <p>There isn't contact registration. Do you wish add contact ?<a href="create.php">Click here!</a></p>
         <?php else:?>
         <table>
             <tr>
