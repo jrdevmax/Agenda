@@ -2,8 +2,10 @@
     include_once 'template/header.php';
 ?>
 
+    
 <div class="d-flex">
        <div class="container-principal">
+      
                 <?php if(isset($print) && $print != ""):?>
                 <p class="d-flex"><?= $print ?></p>
                 <?php endif; ?>
