@@ -102,3 +102,27 @@ tr td{
     padding: 4px;
     margin:5px;
 }
+
+/* FIND */
+.container-contact{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 50px auto;
+}
+.container-photo-cont{
+    /* background-color: gray; */
+    border-right: 1px solid #ccc;
+    padding: 5xp;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+}
+.p-cont{
+    display:block;
+    font-size: larger;
+}
+.cont-img{
+    width: 60px;
+}
